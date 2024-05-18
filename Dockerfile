@@ -1,11 +1,12 @@
 FROM python:3.12
 
-WORKDIR /webx
+WORKDIR /
 
-COPY requirements.txt ./
+COPY requirements.txt .
+
 
 RUN pip install -r requirements.txt
 
-COPY . .
+COPY .Python.org .
 
 CMD ["python3", "bot.py"]
