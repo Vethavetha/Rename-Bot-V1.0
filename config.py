@@ -16,7 +16,7 @@ DB_URL = os.environ.get("DB_URL","mongodb+srv://akvvetha:2640@cluster0.htdlwze.m
  
 FLOOD = int(os.environ.get("FLOOD", "10"))
 
-START_PIC = os.environ.get("START_PIC", "https://graph.org/Rename-Bot-01-15")
+START_PIC = os.environ.get("START_PIC", "https://core.telegram.org/bots/api")
 
 ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '5616093790.').split()]
 
