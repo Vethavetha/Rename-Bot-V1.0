@@ -6,43 +6,43 @@
     "env": {
         "API_ID": {
             "description": "Your APP ID From my.telegram.org ",
-            "value": ""
+            "value": "26950524"
         },
         "API_HASH": {
             "description": "Your API Hash From my.telegram.org ",
-            "value": ""
+            "value": "f4fb3d1cd320a027837830c89d70d506"
         },
         "FORCE_SUB": {
             "description": "Your force sub channel user name without [@] ",
-            "value": "",
+            "value": "1002081316321.",
             "required": false 
         },
         "BOT_TOKEN": {
             "description": "Your Bot Token From @BotFather",
-            "value": ""
+            "value": "7084798042"
         },
         "ADMIN": {
             "description":"Add Your User ID multiple is use space to split",
-            "value": ""
+            "value": "5616093790."
         },
         "DB_URL": {
             "description": "Your Mongo DB URL Obtained From mongodb.com",
-            "value": ""
+            "value": "https://bit.ly/39UnAMG"
         },
         "DB_NAME":{ 
             "description":"Your Mongo DB Database Name ",
-            "value": "Cluster0",
+            "value": "mongodb+srv://akvvetha:2640@cluster0.htdlwze.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
             "required": false
         },
         "START_PIC": {
-            "description": "Your Bot start cmd Pic",
-            "value": "",
+            "description": "https://iili.io/J6hDzzu.md.jpg",
+            "value": "https://iili.io/J6hDzzu.md.jpg",
             "required": false
         }
     },
     "buildpacks": [
         {
-            "url": "heroku/python"
+            "https://dashboard.render.com/web/new": "render/python"
         }
     ]
 }
