@@ -26,7 +26,7 @@
  * Clone the Repo.
 
 ```
-git clone https://github.com/WebX-Divin/Rename-Bot-V1.0
+github.com/Vethavetha/Rename-Bot-V1.0/tree/master
 ```
  * Move to the Repo Folder in the VPS.
 
