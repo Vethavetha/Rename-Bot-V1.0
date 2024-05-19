@@ -1,6 +1,6 @@
 FROM python:3.12
 
-WORKDIR /
+WORKDIR /https://t.me/WebXBots
 
 COPY requirements.txt .
 
